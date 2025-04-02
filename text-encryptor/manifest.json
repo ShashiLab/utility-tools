@@ -1,0 +1,57 @@
+{
+    "name": "Text Encryptor - Utility Tools by Shashi.app",
+    "short_name": "Text Encryptor",
+    "description": "Encrypt and decrypt your sensitive text data using military-grade AES-256 encryption.",
+    "start_url": "/text-encryptor/index.html",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#4338ca",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/text-encryptor/img/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "/text-encryptor/img/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "/text-encryptor/img/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/text-encryptor/img/screenshot1.png",
+        "type": "image/png",
+        "sizes": "1280x720",
+        "form_factor": "wide"
+      },
+      {
+        "src": "/text-encryptor/img/screenshot2.png",
+        "type": "image/png",
+        "sizes": "750x1334",
+        "form_factor": "narrow"
+      }
+    ],
+    "categories": ["utilities", "security", "productivity"],
+    "shortcuts": [
+      {
+        "name": "Encrypt Text",
+        "url": "/text-encryptor/index.html?mode=encrypt",
+        "description": "Encrypt your sensitive text"
+      },
+      {
+        "name": "Decrypt Text",
+        "url": "/text-encryptor/index.html?mode=decrypt",
+        "description": "Decrypt your encrypted text"
+      }
+    ]
+  }
